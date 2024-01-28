@@ -98,12 +98,18 @@ main {
             margin: auto;
             width: 100%;
             padding-top: 110px;
+            max-height: 400px;
         }
     }
 
     .carousel-item {
         width: 100%;
         flex: 0 0 auto;
+
+        img{
+            max-height: 400px;
+        }
+        
     }
 
     /* Navigation buttons */
