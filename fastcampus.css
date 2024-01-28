@@ -1,0 +1,353 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul,
+li,
+button,
+p,
+div {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+header {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+header .logo_section img {
+  display: block;
+  max-width: 150px;
+  /* Set the maximum width */
+  height: auto;
+  /* Maintain the aspect ratio */
+  padding: 10px 60px;
+}
+
+header .category {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 40px;
+  padding: 0px 50px 10px 50px;
+  font-weight: 700;
+}
+
+header .category button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Center items vertically */
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* Center items horizontally */
+  font-size: 14x;
+  font-weight: 700;
+  line-height: 19.5px;
+  align-items: center;
+  padding: 5px 40px 5px 40px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+header .category button:hover {
+  background-color: #ED234B;
+}
+
+header .category .main_cate {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+main {
+  /* Style for the carousel container */
+  /* Style for the carousel slides */
+  /* Navigation buttons */
+  /* Define a grid container */
+  /* Style for grid items */
+}
+
+main .carousel-container {
+  overflow: hidden;
+  width: 100%;
+  /* Adjust the width of the carousel */
+  margin: auto;
+  height: 100%;
+}
+
+main .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: -webkit-transform 5s ease-in;
+  transition: -webkit-transform 5s ease-in;
+  transition: transform 5s ease-in;
+  transition: transform 5s ease-in, -webkit-transform 5s ease-in;
+}
+
+main .carousel img {
+  margin: auto;
+  width: 100%;
+  padding-top: 110px;
+}
+
+main .carousel-item {
+  width: 100%;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+main .carousel-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 24px;
+  color: white;
+  background-color: #6E6E73;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  opacity: 0.7;
+}
+
+main .prev-btn {
+  left: 10px;
+  top: 330px;
+}
+
+main .next-btn {
+  right: 10px;
+  top: 330px;
+}
+
+main .promotion img {
+  margin: auto;
+  width: 100%;
+  padding-top: 110px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+main .hof {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 60px 10px 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000;
+  height: 50px;
+  border: none;
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+main .hof2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 60px 10px 60px;
+  border: 1px solid #000;
+  height: 0px;
+  border: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+main .hof3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 60px 10px 60px;
+  border: 1px solid #000;
+  height: 50px;
+  border: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+main .hof_grid {
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  -webkit-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 3px;
+  background-color: #fff;
+  padding: 0px 60px;
+}
+
+main .hof_grid .card {
+  padding: 0px 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border: none;
+  font-weight: 500;
+  font-size: large;
+}
+
+main .hof_grid .card img {
+  max-width: 100%;
+  /* Ensure images don't exceed the width of their container */
+  height: auto;
+  /* Maintain the aspect ratio of the images */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+main .new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 60px 10px 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #000;
+  height: 50px;
+  border: none;
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+main .new2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 60px 0px 60px;
+  border: 1px solid #000;
+  height: 0px;
+  border: none;
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+main .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  /* Three columns with equal width */
+  gap: 20px;
+  /* Gap between grid items */
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  padding: 50px 50px;
+}
+
+main .grid-item {
+  padding: 0px 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  border: none;
+  font-weight: 500;
+  font-size: large;
+  /* Style for the small tag buttons */
+  /* Hover effect for the small tag buttons */
+}
+
+main .grid-item .tag-button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #F2F2F2;
+  color: #6E6E73;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+  margin: 3px;
+  gap: 1px;
+}
+
+main .grid-item .tag-button:hover {
+  background-color: #999;
+  color: #F2F2F2;
+}
+
+main .grid-item img {
+  max-width: 100%;
+  /* Ensure images don't exceed the width of their container */
+  height: auto;
+  /* Maintain the aspect ratio of the images */
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.grid-item text {
+  font-size: 12px;
+  font-weight: 500;
+  text-align: left;
+  color: #9B9BA0;
+}
+/*# sourceMappingURL=fastcampus.css.map */
